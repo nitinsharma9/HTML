@@ -5,6 +5,11 @@ body{
 	font-size: 14px;
 }
 
+.hone{
+	color :	#FF6347;
+	font-size: :120%;
+}
+
 #header{
 	background-color:#DCDCDC;
 	margin:10px;
@@ -12,10 +17,32 @@ body{
 	border-radius: 5px;
 }	
 
-#navbar{
-	background-color: #DCDCDC;	margin : 10px;
-	height: 40px;
+#navbar ul{
+	padding:5px;
+	background-color: #FFF0F5;	
+	margin : 10px;
+	height: 20px;
+	text-align: center;
 	border-radius: 5px;
+	list-style-type: none;
+}
+
+#navbar ul li{
+	display : inline-block;
+	color : black;
+}
+
+#navbar ul li a{
+	text-decoration: none;
+	padding:.2em;
+	margin-left: 30px;
+	color : #000000;
+	background-color: #FFF0F5 ;
+}
+
+#navbar ul li a:hover{
+	color: #FFF0F5;
+	background-color:#000000;
 }
 
 .main{
@@ -38,6 +65,7 @@ body{
 	height:173px;
 	width: 220px;
 	float:right;
+	opacity: 1.0;
 }
 
 .imageflash{
@@ -46,4 +74,59 @@ body{
 	margin-right: 20px;
 	float: right;
 	padding-top:10px;
+	opacity:1.0;
+	transition : opacity 0.5s ease-in-out;
+}
+
+.imageflash:hover{
+	opacity:0.5;
+}
+
+.imagegot:hover{
+	opacity : 0.5;
+}
+
+.footer{
+	background-color:#DCDCDC;
+	margin:10px;
+	height:120px;
+	clear:both;
+	font-size: 90%;
+	border-radius: 5px;
+	text-align: center;
+	padding: 15px; 
+}
+
+.footer ul{
+	padding: 20px;
+	list-style-type: none;
+	text-align: center;
+	margin:10px;
+}
+
+.footer ul li{
+	display: inline;
+	color : black;
+}
+
+.footer ul li a{
+	text-decoration: none;
+	padding: 20px;
+	font-family: Arial;
+	color : #000000;
+}
+
+.footer ul li a:hover{
+	color: #FFF0F5;
+	background-color:#000000;
+	font-size: 110%;
+}
+
+
+.head{
+	font-size: 40px;
+	padding :20px;
+	margin-top:20px;
+	margin-left: 510px;
+	font-family: "Century Gothic";
 }
